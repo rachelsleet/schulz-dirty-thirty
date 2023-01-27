@@ -7,12 +7,10 @@ import Box from '@mui/material/Box';
 import mallorca from './images/kerstin_caro_mallorca.jpeg';
 import christian from './images/christian.jpeg';
 import speech_bubble from './images/speech_bubble.png';
-import mermaid from './images/mermaid.jpeg';
 import StandardImageList from './ImageList';
 import { styled } from '@mui/material/styles';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
-import { display } from '@mui/system';
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
@@ -98,7 +96,7 @@ export default function BasicTabs() {
         <h1>Happy Birthday, Kerstin!</h1>
         <p>We love you!</p>
         <p>This site is designed as a little digital goodie bag to provide all the creature comforts of Berlin whilst you are away from the poor but sexy stadt.</p>
-        <iframe src="https://giphy.com/embed/xThuWkj1FAYH4wmGfC" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/refinery29-norahstone-xThuWkj1FAYH4wmGfC">via GIPHY</a></p>
+        <iframe src="https://giphy.com/embed/xThuWkj1FAYH4wmGfC" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
       </TabPanel>
       <TabPanel value={value} index={1}>
       <h1>Remote Ladies Night Instructions</h1>
