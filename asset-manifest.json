@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/schulz-dirty-thirty/static/css/main.3842443c.css",
-    "main.js": "/schulz-dirty-thirty/static/js/main.91cf654e.js",
+    "main.js": "/schulz-dirty-thirty/static/js/main.354c3427.js",
     "static/js/787.b406f480.chunk.js": "/schulz-dirty-thirty/static/js/787.b406f480.chunk.js",
     "static/media/speech_bubble.png": "/schulz-dirty-thirty/static/media/speech_bubble.9f5fb5d8486626c1a3da.png",
     "static/media/bikes.jpeg": "/schulz-dirty-thirty/static/media/bikes.ddbeb6f713633fc82060.jpeg",
@@ -19,11 +19,11 @@
     "static/media/chips.jpeg": "/schulz-dirty-thirty/static/media/chips.6b04e5943f40fb5643f3.jpeg",
     "index.html": "/schulz-dirty-thirty/index.html",
     "main.3842443c.css.map": "/schulz-dirty-thirty/static/css/main.3842443c.css.map",
-    "main.91cf654e.js.map": "/schulz-dirty-thirty/static/js/main.91cf654e.js.map",
+    "main.354c3427.js.map": "/schulz-dirty-thirty/static/js/main.354c3427.js.map",
     "787.b406f480.chunk.js.map": "/schulz-dirty-thirty/static/js/787.b406f480.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3842443c.css",
-    "static/js/main.91cf654e.js"
+    "static/js/main.354c3427.js"
   ]
 }
