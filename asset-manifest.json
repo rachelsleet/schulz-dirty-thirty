@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/schulz-dirty-thirty/static/css/main.3842443c.css",
+    "main.js": "/schulz-dirty-thirty/static/js/main.43cf9c28.js",
+    "static/js/787.b406f480.chunk.js": "/schulz-dirty-thirty/static/js/787.b406f480.chunk.js",
+    "static/media/speech_bubble.png": "/schulz-dirty-thirty/static/media/speech_bubble.9f5fb5d8486626c1a3da.png",
+    "static/media/bikes.jpeg": "/schulz-dirty-thirty/static/media/bikes.ddbeb6f713633fc82060.jpeg",
+    "static/media/bikes_majo.jpeg": "/schulz-dirty-thirty/static/media/bikes_majo.848f50296ffa309e6d11.jpeg",
+    "static/media/mallorca_cocktails.jpeg": "/schulz-dirty-thirty/static/media/mallorca_cocktails.6c82f1eae7489f943783.jpeg",
+    "static/media/christian.jpeg": "/schulz-dirty-thirty/static/media/christian.4e6301ba01677f2b8efb.jpeg",
+    "static/media/hiking.jpeg": "/schulz-dirty-thirty/static/media/hiking.5f003e6433b0d65507ba.jpeg",
+    "static/media/kerstin_caro_mallorca.jpeg": "/schulz-dirty-thirty/static/media/kerstin_caro_mallorca.99da6fa53a51f34b48ed.jpeg",
+    "static/media/lunch.jpeg": "/schulz-dirty-thirty/static/media/lunch.eaea03792d2c3a0967e4.jpeg",
+    "static/media/mauerpark.jpeg": "/schulz-dirty-thirty/static/media/mauerpark.3c85e2756292e0f341e3.jpeg",
+    "static/media/rooftop.jpeg": "/schulz-dirty-thirty/static/media/rooftop.cd073bd41ab8287820f7.jpeg",
+    "static/media/tipsy_bear_1.jpeg": "/schulz-dirty-thirty/static/media/tipsy_bear_1.554244c1b6cc1db2546d.jpeg",
+    "static/media/tanz.jpeg": "/schulz-dirty-thirty/static/media/tanz.ca42e3e822189f6b02c8.jpeg",
+    "static/media/birthday.jpeg": "/schulz-dirty-thirty/static/media/birthday.689e16b4f3c28c03e3e9.jpeg",
+    "static/media/chips.jpeg": "/schulz-dirty-thirty/static/media/chips.6b04e5943f40fb5643f3.jpeg",
+    "index.html": "/schulz-dirty-thirty/index.html",
+    "main.3842443c.css.map": "/schulz-dirty-thirty/static/css/main.3842443c.css.map",
+    "main.43cf9c28.js.map": "/schulz-dirty-thirty/static/js/main.43cf9c28.js.map",
+    "787.b406f480.chunk.js.map": "/schulz-dirty-thirty/static/js/787.b406f480.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3842443c.css",
+    "static/js/main.43cf9c28.js"
+  ]
+}
