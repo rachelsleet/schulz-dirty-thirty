@@ -69,6 +69,9 @@ export default function BasicTabs() {
     left: '50%',
     transform: 'translate(-50%, -50%)',
   }
+
+  const videoStyle =   {aspectRatio: '16 / 9',
+  width: '100%'}
   const [value, setValue] = React.useState(0);
   const [displayedQuoteIndex, setDisplayedQuoteIndex] = React.useState(-1);
   const quotes = ['Get a job!', 'Get another job!', 'How much are you getting paid for this again?', 'Bad day at the office? Quit!', 'In fact... get everyone to quit!']
@@ -137,7 +140,7 @@ export default function BasicTabs() {
       <TabPanel value={value} index={4}>
         <h2>Tipsy Bear may not exist in Turkey...</h2>
         <br></br>
-        <iframe width="1000" height="700" src="https://www.youtube.com/embed/znlJdzR5gBo" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+        <iframe style={videoStyle} src="https://www.youtube.com/embed/znlJdzR5gBo" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
       </TabPanel>
     </Box>
   );
