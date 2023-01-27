@@ -33,7 +33,7 @@ function TabPanel(props) {
     >
       {value === index && (
         <Box sx={{ p: 3 }}>
-          <Typography>{children}</Typography>
+          {children}
         </Box>
       )}
     </div>
@@ -55,7 +55,7 @@ function a11yProps(index) {
 
 export default function BasicTabs() {
   const imgStyle = {
-    width: '100%'
+    maxWidth: '100%'
   }
 
   const containerStyle = {
@@ -96,7 +96,7 @@ export default function BasicTabs() {
         <h1>Happy Birthday, Kerstin!</h1>
         <p>We love you!</p>
         <p>This site is designed as a little digital goodie bag to provide all the creature comforts of Berlin whilst you are away from the poor but sexy stadt.</p>
-        <iframe src="https://giphy.com/embed/xThuWkj1FAYH4wmGfC" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        <iframe src="https://giphy.com/embed/xThuWkj1FAYH4wmGfC" width="480" height="480" className="giphy-embed" allowFullScreen></iframe>
       </TabPanel>
       <TabPanel value={value} index={1}>
       <h1>Remote Ladies Night Instructions</h1>
@@ -109,8 +109,9 @@ export default function BasicTabs() {
           </ol>
           <br></br>
           <br></br>
-      <img src={mallorca}></img>
-      <iframe style={{borderRadius:'12px'}} src="https://open.spotify.com/embed/playlist/1y2T6sWJUYRIpO1aDRjt5x?utm_source=generator&theme=0" width="50%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          <iframe style={{borderRadius:'12px'}} src="https://open.spotify.com/embed/playlist/1y2T6sWJUYRIpO1aDRjt5x?utm_source=generator&theme=0" maxwidth="100%" height="auto" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          <br></br>
+        <img src={mallorca} style={{maxWidth: '100%', height: 'auto'}}></img>
       </TabPanel>
       <TabPanel value={value} index={2}>
         <h2>Low on motivation? Click on Christian for some unsolicited advice:</h2>
@@ -118,12 +119,12 @@ export default function BasicTabs() {
         <Box sx={{ flexGrow: 1 }}>
       <Grid container spacing={-2}>
         <Grid item xs={8}>
-          <img src={christian} onClick={handleClick} className='Christian'></img>
+          <img src={christian} onClick={handleClick} className='Christian' style={{maxWidth: '100%', height: 'auto'}}></img>
         </Grid>
         <Grid item xs={4}>
           <div className='container' style={containerStyle}>
             <img src={speech_bubble} style={imgStyle} hidden={!(displayedQuoteIndex >= 0)}></img>
-            <Box style={centeredStyle}><p style={{fontSize: 'x-large'}}>{displayedQuoteIndex >= 0 && quotes[displayedQuoteIndex]}</p></Box>
+            <Box style={centeredStyle}><p style={{fontSize: '2vw'}}>{displayedQuoteIndex >= 0 && quotes[displayedQuoteIndex]}</p></Box>
           </div>
         </Grid>
       </Grid>
@@ -136,7 +137,7 @@ export default function BasicTabs() {
       <TabPanel value={value} index={4}>
         <h2>Tipsy Bear may not exist in Turkey...</h2>
         <br></br>
-        <iframe width="1000" height="700" src="https://www.youtube.com/embed/znlJdzR5gBo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="1000" height="700" src="https://www.youtube.com/embed/znlJdzR5gBo" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
       </TabPanel>
     </Box>
   );
